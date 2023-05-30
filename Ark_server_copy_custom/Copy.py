@@ -1,0 +1,42 @@
+import shutil, os
+
+shutil.copy(r'custom.json', r'C:\ASM\Servers\Server1\ShooterGame\Binaries\Win64\ArkApi\Plugins\SurvivalShop\custom.json')
+shutil.copy(r'custom.json', r'C:\ASM\Servers\Server1\ShooterGame\Saved\Config\Plugins\SurvivalShop\custom.json')
+print('1%')
+
+# C:\ASM\Servers\Server1\ShooterGame\Binaries\Win64\ArkApi\Plugins\SurvivalShop\
+# C:\ASM\Servers\Server1\ShooterGame\Saved\Config\Plugins\SurvivalShop\
+
+shutil.copy(r'custom.json', r'C:\ASM\Servers\Server2\ShooterGame\Binaries\Win64\ArkApi\Plugins\SurvivalShop\custom.json')
+shutil.copy(r'custom.json', r'C:\ASM\Servers\Server2\ShooterGame\Saved\Config\Plugins\SurvivalShop\custom.json')
+print('10%')
+shutil.copy(r'custom.json', r'C:\ASM\Servers\Server3\ShooterGame\Binaries\Win64\ArkApi\Plugins\SurvivalShop\custom.json')
+shutil.copy(r'custom.json', r'C:\ASM\Servers\Server3\ShooterGame\Saved\Config\Plugins\SurvivalShop\custom.json')
+print('20%')
+shutil.copy(r'custom.json', r'C:\ASM\Servers\Server4\ShooterGame\Binaries\Win64\ArkApi\Plugins\SurvivalShop\custom.json')
+shutil.copy(r'custom.json', r'C:\ASM\Servers\Server4\ShooterGame\Saved\Config\Plugins\SurvivalShop\custom.json')
+print('30%')
+shutil.copy(r'custom.json', r'C:\ASM\Servers\Server5\ShooterGame\Binaries\Win64\ArkApi\Plugins\SurvivalShop\custom.json')
+shutil.copy(r'custom.json', r'C:\ASM\Servers\Server5\ShooterGame\Saved\Config\Plugins\SurvivalShop\custom.json')
+print('40%')
+shutil.copy(r'custom.json', r'C:\ASM\Servers\Server6\ShooterGame\Binaries\Win64\ArkApi\Plugins\SurvivalShop\custom.json')
+shutil.copy(r'custom.json', r'C:\ASM\Servers\Server6\ShooterGame\Saved\Config\Plugins\SurvivalShop\custom.json')
+print('50%')
+shutil.copy(r'custom.json', r'C:\ASM\Servers\Server7\ShooterGame\Binaries\Win64\ArkApi\Plugins\SurvivalShop\custom.json')
+shutil.copy(r'custom.json', r'C:\ASM\Servers\Server7\ShooterGame\Saved\Config\Plugins\SurvivalShop\custom.json')
+print('60%')
+shutil.copy(r'custom.json', r'C:\ASM\Servers\Server8\ShooterGame\Binaries\Win64\ArkApi\Plugins\SurvivalShop\custom.json')
+shutil.copy(r'custom.json', r'C:\ASM\Servers\Server8\ShooterGame\Saved\Config\Plugins\SurvivalShop\custom.json')
+print('70%')
+shutil.copy(r'custom.json', r'C:\ASM\Servers\Server9\ShooterGame\Binaries\Win64\ArkApi\Plugins\SurvivalShop\custom.json')
+shutil.copy(r'custom.json', r'C:\ASM\Servers\Server9\ShooterGame\Saved\Config\Plugins\SurvivalShop\custom.json')
+print('80%')
+shutil.copy(r'custom.json', r'C:\ASM\Servers\Server10\ShooterGame\Binaries\Win64\ArkApi\Plugins\SurvivalShop\custom.json')
+shutil.copy(r'custom.json', r'C:\ASM\Servers\Server10\ShooterGame\Saved\Config\Plugins\SurvivalShop\custom.json')
+print('90%')
+shutil.copy(r'custom.json', r'C:\ASM\Servers\Server11\ShooterGame\Binaries\Win64\ArkApi\Plugins\SurvivalShop\custom.json')
+shutil.copy(r'custom.json', r'C:\ASM\Servers\Server11\ShooterGame\Saved\Config\Plugins\SurvivalShop\custom.json')
+print('100%')
+print('Копирование файла custom.json завершено')
+
+input('Press ENTER to exit') 
