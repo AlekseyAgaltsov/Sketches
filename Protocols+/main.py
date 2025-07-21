@@ -1,13 +1,16 @@
 import pandas as pd
 from docx import Document
 import re
+# pip install openpyxl
 
 # Чтение Excel-файла
 file_path = 'Журнал.xlsx'
 df = pd.read_excel(file_path)
 
+numb = int(input('Ввод номера заключения: '))
+
 # Номер строки (начиная с 1)
-row_number = 7
+row_number = numb - (11945 + 7)
 
 # Список русских названий месяцев
 months = [
